@@ -13,17 +13,17 @@ interface CarFeatures {
     driveTrain: DriveTrain
 }
 
-class Car implements CarFeatures {
+// class Car implements CarFeatures {
 
-    isRadioOn = false;
-    driveTrain: DriveTrain = 'FWD';
+//     isRadioOn = false;
+//     driveTrain: DriveTrain = 'FWD';
 
-     toggleRadio(){
-         this.isRadioOn = !this.isRadioOn 
-         return this.isRadioOn;
-        ; 
-    }
-}
+//      toggleRadio(){
+//          this.isRadioOn = !this.isRadioOn 
+//          return this.isRadioOn;
+//         ; 
+//     }
+// }
 
 
 const request = () => {
@@ -38,6 +38,5 @@ try {
 }catch(error){
 
     console.log(error);
-
 
 }
